@@ -60,7 +60,7 @@ export async function getServerSideProps(context) {
     };
 
     try {
-      const res = await fetch('https://6800b624b72e9cfaf7286802.mockapi.io/api/v1/Usersss', {
+      const res = await fetch('https://6800b624b72e9cfaf7286802.mockapi.io/api/v1/User', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(reqBody),
